@@ -1,7 +1,6 @@
 # Jarkom-Modul-4-2025-K11
 
-
-## 📡 Tabel Alokasi Subnet
+## Tabel Alokasi Subnet
 
 | Nama Subnet | Rute | Jumlah IP | Jumlah host + gateway | Netmask |
 |-------------|------|------------|------------------------|---------|
@@ -26,7 +25,11 @@
 | A19 | Amroth > Switch > Morgoth > Switch > Throne | 3 | 3 | /29 |
 | A20 | Morgoth > Switch > Erendis > Switch > Elrond | 61 | 62 | /26 |
 | A21 | Throne > Erebor | 2 | 3 | /29 |
-| A22 | Anor > Switch >
+| A22 | Anor > Switch > Silmarils > Switch > Beacon | 660 | 661 | /22 |
+| A23 | Minastir > Anor | 2 | 2 | /30 |
+| **Total** | — | **3207** | **3219** | **/20** |
+
+
 
 <img width="1589" height="919" alt="CIDR A" src="https://github.com/user-attachments/assets/3ab40773-5f55-436a-9e38-0fd2f5a340b6" />
 <img width="1589" height="919" alt="CIDR B" src="https://github.com/user-attachments/assets/630eb698-e795-47dc-ba0a-49b574f153bc" />
