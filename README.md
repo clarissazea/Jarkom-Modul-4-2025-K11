@@ -7,7 +7,7 @@
 | A1 | Valinor > Switch > Shadow > Switch > Anarion > Switch > Lindon | 298 | 299 | /23 |
 | A2 | Valmar > Switch > Doriath > Switch > Arnor | 27 | 28 | /27 |
 | A3 | Valmar > Switch > Imrahil > Switch > Utumno > Switch > Gwaith | 33 | 34 | /26 |
-| A4 | Fornost > Switch > Valinor > Switch > Valmar | 3 | 3 | /30 |
+| A4 | Fornost > Switch > Valinor > Switch > Valmar | 3 | 3 | /29 |
 | A5 | Amonsul > Fornost | 2 | 2 | /30 |
 | A6 | Eregion > Switch > Mirkwood > Switch > Morgul | 125 | 126 | /25 |
 | A7 | Gudur > Switch > Palantir > Switch > Edhil | 119 | 120 | /25 |
@@ -30,6 +30,7 @@
 | **Total** | — | **3207** | **3219** | **/20** |
 
 
+<img width="1561" height="746" alt="image" src="https://github.com/user-attachments/assets/a58adbab-934c-472d-87a4-a79ecc8b9371" />
 
 <img width="1589" height="919" alt="CIDR A" src="https://github.com/user-attachments/assets/3ab40773-5f55-436a-9e38-0fd2f5a340b6" />
 <img width="1589" height="919" alt="CIDR B" src="https://github.com/user-attachments/assets/630eb698-e795-47dc-ba0a-49b574f153bc" />
