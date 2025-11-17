@@ -85,7 +85,7 @@
 
 
 ## Langkah 5
-<img width="1589" height="919" alt="CIDR E" src="https://github.com/user-attachments/assets/5a5c699c-db8f-4961-80b2-6445e9fe1f30" />
+<img width="1589" height="919" alt="E FIX" src="https://github.com/user-attachments/assets/4f9d138b-5505-479b-8068-7129f161a3d3" />
 
 ### Tabel Gabungan Subnet – Level E
 
