@@ -188,3 +188,10 @@
 | A22    | /22            | 10.69.64.0     | 255.255.252.0     | 10.69.67.255    | 10.69.64.1 – 10.69.67.254            |
 | A23    | /22            | 10.69.68.0     | 255.255.252.0     | 10.69.71.255    | 10.69.68.1 – 10.69.71.254            |
 
+### IP Static
+
+<img width="875" height="136" alt="image" src="https://github.com/user-attachments/assets/f3bc8849-80e6-4f43-85e9-628f38052a46" />
+
+<img width="931" height="843" alt="image" src="https://github.com/user-attachments/assets/13e61fef-45d6-4ef9-8fae-c97911e170df" />
+
+
