@@ -97,7 +97,7 @@
 
 
 ## Langkah 6
-<img width="1589" height="919" alt="CIDR F" src="https://github.com/user-attachments/assets/0e078290-de2a-4707-b012-fd0259227bbc" />
+<img width="1589" height="919" alt="F FIX" src="https://github.com/user-attachments/assets/61790787-07b9-497f-8efe-e3b78922b638" />
 
 ### Tabel Gabungan Subnet – Level F
 
