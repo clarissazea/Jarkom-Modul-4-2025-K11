@@ -44,29 +44,105 @@
 ## Langkah 2
 <img width="1589" height="919" alt="CIDR B" src="https://github.com/user-attachments/assets/630eb698-e795-47dc-ba0a-49b574f153bc" />
 
+### Tabel Gabungan Subnet – Level B
+
+| Subnet | Gabungan dari       | Netmask Akhir |
+|--------|---------------------|----------------|
+| B1     | A1 (/23) + A4 (/30) | /22            |
+| B2     | A2 (/27) + A3 (/26) | /25            |
+| B3     | A7 (/25) + A8 (/28) | /24            |
+| B4     | A10 (/23) + A11 (/23)| /22           |
+| B5     | A22 (/22) + A23 (/30)| /21           |
+| B6     | A19 (/29) + A20 (/26)| /25           |
+
+
 ## Langkah 3
 <img width="1589" height="919" alt="CIDR C" src="https://github.com/user-attachments/assets/8e448865-da16-434c-91bd-20e361db4355" />
+
+### Tabel Gabungan Subnet – Level C
+
+| Subnet | Gabungan dari       | Netmask Akhir |
+|--------|---------------------|----------------|
+| C1     | B1 (/22) + B2 (/25) | /21            |
+| C2     | B3 (/24) + A14 (/30)| /23            |
+| C3     | B4 (/22) + A12 (/30)| /21            |
+| C4     | B6 (/25) + A21 (/29)| /24            |
+
 
 ## Langkah 4
 <img width="1589" height="919" alt="CIDR D" src="https://github.com/user-attachments/assets/c13e07ef-818a-4290-bfa4-7e4ce86a0adf" />
 
+### Tabel Gabungan Subnet – Level D
+
+| Subnet | Gabungan dari       | Netmask Akhir |
+|--------|---------------------|----------------|
+| D1     | C1 (/21) + A5 (/30) | /20            |
+| D2     | C2 (/23) + A9 (/22) | /21            |
+| D3     | C3 (/21) + A13 (/30)| /20            |
+| D4     | C4 (/24) + A18 (/30)| /23            |
+
+
 ## Langkah 5
 <img width="1589" height="919" alt="CIDR E" src="https://github.com/user-attachments/assets/5a5c699c-db8f-4961-80b2-6445e9fe1f30" />
+
+### Tabel Gabungan Subnet – Level E
+
+| Subnet | Gabungan dari             | Netmask Akhir |
+|--------|---------------------------|----------------|
+| E1     | D4 (/23) + B5 (/21)       | /20            |
+| E2     | D2 (/21) + D3 (/20)       | /19            |
+
 
 ## Langkah 6
 <img width="1589" height="919" alt="CIDR F" src="https://github.com/user-attachments/assets/0e078290-de2a-4707-b012-fd0259227bbc" />
 
+### Tabel Gabungan Subnet – Level F
+
+| Subnet | Gabungan dari             | Netmask Akhir |
+|--------|---------------------------|----------------|
+| F1     | E2 (/21) + A15 (/30)      | /20            |
+
+
 ## Langkah 7
 <img width="1589" height="919" alt="CIDR G" src="https://github.com/user-attachments/assets/513e3df9-2256-4217-847d-00e863a9f4f4" />
+
+### Tabel Gabungan Subnet – Level G
+
+| Subnet | Gabungan dari             | Netmask Akhir |
+|--------|---------------------------|----------------|
+| G1     | F1 (/20) + A6 (/25)       | /19            |
+
 
 ## Langkah 8
 <img width="1589" height="919" alt="CIDR H" src="https://github.com/user-attachments/assets/86badeff-31e9-4580-a5b7-b721ef084aa2" />
 
+### Tabel Gabungan Subnet – Level H
+
+| Subnet | Gabungan dari             | Netmask Akhir |
+|--------|---------------------------|----------------|
+| H1     | G1 (/19) + A16 (/30)      | /18            |
+| H2     | E1 (/20) + A17 (/30)      | /19            |
+
+
 ## Langkah 9
 <img width="1676" height="943" alt="CIDR I" src="https://github.com/user-attachments/assets/bdc1e7e3-bb19-410d-82a0-42446ecdf12d" />
 
+### Tabel Gabungan Subnet – Level I
+
+| Subnet | Gabungan dari             | Netmask Akhir |
+|--------|---------------------------|----------------|
+| I1     | H1 (/18) + H2 (/19)       | /17            |
+
+
 ## Langkah 10
 <img width="1676" height="943" alt="CIDR J" src="https://github.com/user-attachments/assets/619afe21-e6ac-47f3-88dc-55f4a7cc71e1" />
+
+### Tabel Gabungan Subnet – Level J
+
+| Subnet | Gabungan dari             | Netmask Akhir |
+|--------|---------------------------|----------------|
+| J1     | I1 (/20) + D1 (/22)       | /19            |
+
 
 ## Tree CIDR
 
