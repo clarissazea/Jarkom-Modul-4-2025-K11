@@ -1,5 +1,7 @@
 # Jarkom-Modul-4-2025-K11
 
+# CIDR (CPT)
+
 ## Tabel Alokasi Subnet
 
 | Nama Subnet | Rute | Jumlah IP | Jumlah host + gateway | Netmask |
@@ -29,16 +31,62 @@
 | A23 | Minastir > Anor | 2 | 2 | /30 |
 | **Total** | — | **3207** | **3219** | **/20** |
 
+## Topologi
+
+<img width="1589" height="919" alt="cidr fix" src="https://github.com/user-attachments/assets/30d87e46-631e-418c-98b5-29bc22c2b091" />
+
+## Penggabungan
+
+### Langkah 1
+
+<img width="1589" height="919" alt="CIDR A" src="https://github.com/user-attachments/assets/3ab40773-5f55-436a-9e38-0fd2f5a340b6" />
+
+## Langkah 2
+<img width="1589" height="919" alt="CIDR B" src="https://github.com/user-attachments/assets/630eb698-e795-47dc-ba0a-49b574f153bc" />
+
+## Langkah 3
+<img width="1589" height="919" alt="CIDR C" src="https://github.com/user-attachments/assets/8e448865-da16-434c-91bd-20e361db4355" />
+
+## Langkah 4
+<img width="1589" height="919" alt="CIDR D" src="https://github.com/user-attachments/assets/c13e07ef-818a-4290-bfa4-7e4ce86a0adf" />
+
+## Langkah 5
+<img width="1589" height="919" alt="CIDR E" src="https://github.com/user-attachments/assets/5a5c699c-db8f-4961-80b2-6445e9fe1f30" />
+
+## Langkah 6
+<img width="1589" height="919" alt="CIDR F" src="https://github.com/user-attachments/assets/0e078290-de2a-4707-b012-fd0259227bbc" />
+
+## Langkah 7
+<img width="1589" height="919" alt="CIDR G" src="https://github.com/user-attachments/assets/513e3df9-2256-4217-847d-00e863a9f4f4" />
+
+## Langkah 8
+<img width="1589" height="919" alt="CIDR H" src="https://github.com/user-attachments/assets/86badeff-31e9-4580-a5b7-b721ef084aa2" />
+
+## Langkah 9
+<img width="1676" height="943" alt="CIDR I" src="https://github.com/user-attachments/assets/bdc1e7e3-bb19-410d-82a0-42446ecdf12d" />
+
+## Langkah 10
+<img width="1676" height="943" alt="CIDR J" src="https://github.com/user-attachments/assets/619afe21-e6ac-47f3-88dc-55f4a7cc71e1" />
+
+## Tree CIDR
 
 <img width="1561" height="746" alt="image" src="https://github.com/user-attachments/assets/a58adbab-934c-472d-87a4-a79ecc8b9371" />
 
-<img width="1589" height="919" alt="CIDR A" src="https://github.com/user-attachments/assets/3ab40773-5f55-436a-9e38-0fd2f5a340b6" />
-<img width="1589" height="919" alt="CIDR B" src="https://github.com/user-attachments/assets/630eb698-e795-47dc-ba0a-49b574f153bc" />
-<img width="1589" height="919" alt="CIDR C" src="https://github.com/user-attachments/assets/8e448865-da16-434c-91bd-20e361db4355" />
-<img width="1589" height="919" alt="CIDR D" src="https://github.com/user-attachments/assets/c13e07ef-818a-4290-bfa4-7e4ce86a0adf" />
-<img width="1589" height="919" alt="CIDR E" src="https://github.com/user-attachments/assets/5a5c699c-db8f-4961-80b2-6445e9fe1f30" />
-<img width="1589" height="919" alt="CIDR F" src="https://github.com/user-attachments/assets/0e078290-de2a-4707-b012-fd0259227bbc" />
-<img width="1589" height="919" alt="CIDR G" src="https://github.com/user-attachments/assets/513e3df9-2256-4217-847d-00e863a9f4f4" />
-<img width="1589" height="919" alt="CIDR H" src="https://github.com/user-attachments/assets/86badeff-31e9-4580-a5b7-b721ef084aa2" />
-<img width="1676" height="943" alt="CIDR I" src="https://github.com/user-attachments/assets/bdc1e7e3-bb19-410d-82a0-42446ecdf12d" />
-<img width="1676" height="943" alt="CIDR J" src="https://github.com/user-attachments/assets/619afe21-e6ac-47f3-88dc-55f4a7cc71e1" />
+
+## Tabel Pembagian Subnet
+
+### Prefix IP: 10.69
+
+| Subnet | CIDR     | Netmask        | IP Range              | Jumlah IP | Keterangan        |
+|--------|----------|----------------|------------------------|-----------|-------------------|
+| A      | 192.168.1.0/24  | 255.255.255.0  | 192.168.1.0 – 192.168.1.255  | 256       | Subnet utama      |
+| B      | 192.168.1.0/26  | 255.255.255.192| 192.168.1.0 – 192.168.1.63   | 64        | Subnet kecil 1    |
+| C      | 192.168.1.64/26 | 255.255.255.192| 192.168.1.64 – 192.168.1.127 | 64        | Subnet kecil 2    |
+| D      | 192.168.1.128/27| 255.255.255.224| 192.168.1.128 – 192.168.1.159| 32        | Subnet mikro 1    |
+| E      | 192.168.1.160/27| 255.255.255.224| 192.168.1.160 – 192.168.1.191| 32        | Subnet mikro 2    |
+| F      | 192.168.1.192/28| 255.255.255.240| 192.168.1.192 – 192.168.1.207| 16        | Subnet mini 1     |
+| G      | 192.168.1.208/28| 255.255.255.240| 192.168.1.208 – 192.168.1.223| 16        | Subnet mini 2     |
+| H      | 192.168.1.224/29| 255.255.255.248| 192.168.1.224 – 192.168.1.231| 8         | Subnet kecil sekali|
+| I      | 192.168.1.232/30| 255.255.255.252| 192.168.1.232 – 192.168.1.235| 4         | Point-to-point    |
+| J      | 192.168.1.236/30| 255.255.255.252| 192.168.1.236 – 192.168.1.239| 4         | Point-to-point    |
+
