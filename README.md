@@ -139,7 +139,9 @@
 
 
 ## Langkah 10
-<img width="1676" height="943" alt="CIDR J" src="https://github.com/user-attachments/assets/619afe21-e6ac-47f3-88dc-55f4a7cc71e1" />
+
+<img width="1676" height="943" alt="J FIX" src="https://github.com/user-attachments/assets/578809f4-bb4f-4967-a402-117415dc8584" />
+
 
 ### Tabel Gabungan Subnet – Level J
 
